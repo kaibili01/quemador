@@ -128,7 +128,74 @@ img.png{
 
 
 }
+/* // Custom, iPhone 4 & 5 */
+/* @media only screen and (min-width : 320px) { 
+	
+	.center-align {
+		margin-left: 35%
+	}
+	
+}  */
 
-/* .fixed-action-btn ul {
-	position: inherit;
+/* // Custom, iPhone 6 & 7 */
+/* @media only screen and (min-width : 375px) { 
+
+	.center-align {
+		margin-left: 35%
+	}
+	
 } */
+
+
+@media only screen and (min-width : 438px) { 
+
+	.center-align {
+		margin-left: 10%
+	}
+	
+}
+
+/* // Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) { 
+
+	.center-align {
+		margin-left: 14%
+	}
+
+} 
+
+
+@media only screen and (min-width : 540px) { 
+
+	.center-align {
+		margin-left: 17%
+	}
+
+} 
+
+
+/* // Small Devices, Tablets */
+@media only screen and (min-width : 768px) { 
+
+	.center-align {
+		margin-left: 27%
+	}
+} 
+
+
+
+/* // Medium Devices, Desktops */
+@media only screen and (min-width : 992px) { 
+
+	.center-align {
+		margin-left: 32%
+	}
+} 
+
+/* // Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) { 
+
+	.center-align {
+		margin-left: 34%
+	}
+} 
